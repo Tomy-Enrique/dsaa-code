@@ -23,6 +23,13 @@ git checkout <branch>
 git branch -d <branch> 
 合并分支
 git merge <branch>
+推送分支
+git push origin <branch>
+
+查看远程分支
+git branch -r
+删除远程分支
+git branch -r -d origin/<branch>
 
 删除远程仓库文件
 git rm -r --cached <file>
